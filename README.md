@@ -143,6 +143,18 @@ This exploit is more likely to crash (blue screen) on Windows 11 than Windows 10
 
 **The bottom line:** The policy bypass itself still works on Windows 11 when the memory layout cooperates, but achieving that layout is harder, and failed attempts are more likely to crash the system instead of failing silently.
 
+## Disclosure Timeline
+
+| Date | Event |
+|------|-------|
+| 2026-05-29 | Vulnerabilities discovered and confirmed |
+| 2026-06-02 | Report submitted to secure@citrix.com |
+| 2026-06-14 | Citrix Security Group requested follow-up details |
+| 2026-06-15 | Additional details delivered |
+| 2026-07-03 | Citrix confirmed the issue impacts the product, passed to engineering |
+| TBD | Patch release |
+| TBD | Public disclosure |
+
 ## References
 
 - [CWE-787: Out-of-bounds Write](https://cwe.mitre.org/data/definitions/787.html)
