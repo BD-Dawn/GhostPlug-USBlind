@@ -148,7 +148,7 @@ This exploit is more likely to crash (blue screen) on Windows 11 than Windows 10
 | Date | Event |
 |------|-------|
 | 2026-05-29 | Vulnerabilities discovered and confirmed |
-| 2026-06-02 | Report submitted to secure@citrix.com |
+| 2026-06-02 | Report submitted to Citrix's Cloud Software Group PSIRT |
 | 2026-06-14 | Citrix Security Group requested follow-up details |
 | 2026-06-15 | Additional details delivered |
 | 2026-07-03 | Citrix confirmed the issue impacts the product, passed to engineering |
