@@ -75,7 +75,7 @@ Each deny rule has match fields that control which devices it blocks:
 - **Product ID** (which specific device)
 - **And a few more**
 
-When a field is set to the special "wildcard" value, it means "match everything." A "deny all USB" rule has every field set to wildcard - so it blocks all devices.
+When a field is set to the special "wildcard" value, it means "match everything." A "deny all USB" rule has every field set to wildcard so it blocks all devices.
 
 The overflow replaces those wildcard values with a specific number (254). Now the deny rule only blocks devices that happen to have vendor ID 254 *and* product ID 254 *and* class 254 - a combination that doesn't match any real USB device. The deny rule is effectively **dead**.
 
