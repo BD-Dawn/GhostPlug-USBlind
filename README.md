@@ -152,11 +152,12 @@ This exploit is more likely to crash (blue screen) on Windows 11 than Windows 10
 | 2026-06-14 | Citrix Security Group requested follow-up details |
 | 2026-06-15 | Additional details delivered |
 | 2026-07-03 | Citrix confirmed the issue impacts the product, passed to engineering |
-| TBD | Patch release |
-| TBD | Public disclosure |
+| 2026-09-08 | Patch release |
+| 2026-09-08 | Public disclosure |
 
 ## References
 
 - [CWE-787: Out-of-bounds Write](https://cwe.mitre.org/data/definitions/787.html)
 - [CWE-125: Out-of-bounds Read](https://cwe.mitre.org/data/definitions/125.html)
 - [CWE-284: Improper Access Control](https://cwe.mitre.org/data/definitions/284.html)
+- https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX697034&articleURL=Citrix_Workspace_app_for_Windows_Security_Bulletin_CVE_2026_78546_and_CVE_2026_78547
